@@ -1,0 +1,192 @@
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."ATIVIDADE"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."ATIVIDADE" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."BEM"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."BEM" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE CASCADE;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."CUSTOFASE"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."CUSTOFASE" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."CUSTOGRUPO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."CUSTOGRUPO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","ATIVCODIGO") REFERENCES "public"."ATIVIDADE" ("EMPCODIGO","EMPCODIGO","ATIVCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."CUSTOIMOBILIZADO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."CUSTOIMOBILIZADO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO","BEMCODIGO") REFERENCES "public"."BEM" ("EMPCODIGO","EMPCODIGO","EMPCODIGO","BEMCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."DIRECIONADORCUSTO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."DIRECIONADORCUSTO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."GLEBA"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."GLEBA" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."INSUMO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."INSUMO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."MONITORAMENTOTCDETALHE"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."MONITORAMENTOTCDETALHE" ADD FOREIGN KEY ("EMPCODIGO","MONTCCONTADOR","EMPCODIGO","MONTCCONTADOR","EMPCODIGO","MONTCCONTADOR") REFERENCES "public"."MONITORAMENTOTIPOCONTROLE" ("EMPCODIGO","MONTCCONTADOR","EMPCODIGO","MONTCCONTADOR","EMPCODIGO","MONTCCONTADOR") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."PLANTIO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."PLANTIO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."PRODUTOAGRO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."PRODUTOAGRO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO","UNIDCODIGO") REFERENCES "public"."UNIDADEMEDIDA" ("EMPCODIGO","EMPCODIGO","EMPCODIGO","UNIDCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."RECOMENDACAO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."RECOMENDACAO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO","RECPERCODIGO") REFERENCES "public"."RECOMENDACAOPERIODO" ("EMPCODIGO","EMPCODIGO","EMPCODIGO","EMPCODIGO","RECPERCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."RECOMENDACAOINSUMO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."RECOMENDACAOINSUMO" ADD FOREIGN KEY ("RECCONTADOR","EMPCODIGO","DISPID","RECCONTADOR","EMPCODIGO","DISPID") REFERENCES "public"."RECOMENDACAO" ("RECCONTADOR","EMPCODIGO","DISPID","RECCONTADOR","EMPCODIGO","DISPID") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."TECNICO"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."TECNICO" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."USUARIOEMPRESA"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."USUARIOEMPRESA" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO") REFERENCES "public"."EMPRESA" ("EMPCODIGO","EMPCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
+
+	-- FromMySqlToPostgreSql::processForeignKey
+	-- Error occurred when tried to create foreign key for table "public"."VARIEDADE"...
+
+	-- PDOException code: 42830
+	-- File: D:\xamp7.2\htdocs\FromMySqlToPostgreSql-master\migration\FromMySqlToPostgreSql\FromMySqlToPostgreSql.php
+	-- Line: 1344
+	-- Message: SQLSTATE[42830]: Invalid foreign key: 7 ERROR:  foreign key referenced-columns list must not contain duplicates
+	-- SQL: ALTER TABLE "public"."VARIEDADE" ADD FOREIGN KEY ("EMPCODIGO","EMPCODIGO","CULTCODIGO") REFERENCES "public"."CULTURA" ("EMPCODIGO","EMPCODIGO","CULTCODIGO") ON UPDATE RESTRICT ON DELETE RESTRICT;
+
+	-------------------------------------------------------
+
